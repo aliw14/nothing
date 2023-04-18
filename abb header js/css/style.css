@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.all {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.first {
+    margin-top: 20px;
+}
+
+.first a {
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+.first #blue {
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.first #blue:hover {
+    transition: 0.4s;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.second {
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+}
+
+.second #glass {
+    margin-right: 10px;
+    color: grey;
+    cursor: pointer;
+}
+
+.second span {
+    margin-right: 40px;
+    color: grey;
+    cursor: pointer;
+}
+
+.second a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 25px;
+}
+
+.second #phone {
+    color: grey;
+}
+
+#list input {
+    display: none;
+}
+
+.input {
+    width: 100%;
+    height: 140px;
+    font-weight: 300;
+    padding: 25px;
+    color: grey;
+    font-size: 35px;
+    outline-style: none;
+    margin-top: 40px;
+    border: 1px solid white;
+    display: block !important;
+}
+
+.language {
+    position: relative;
+
+}
+
+.language span {
+    position: absolute;
+    right: 10%;
+    margin-top: 16px;
+    left: 90%;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.language img {
+    width: 3%;
+}
+
+#lang-one {
+    position: absolute;
+    right: 12%;
+    margin-top: 1%;
+}
+
+
+#lang-two {
+    position: absolute;
+    right: 12%;
+    margin-top: 3%;
+}
+
+#span-one {
+    position: absolute;
+    top: 3%;
+}
+
+#sp-two {
+    position: absolute;
+    margin-top: 51px;
+}
+
+.active {
+    border: 1px solid red;
+    background-color: red;
+    font-size: 40px;
+    width: 50%;
+}
+
+
+#sp-one, #sp-two, #lang-one, #lang-two {
+    display: none;
+  }
+  
